@@ -1,7 +1,7 @@
 /**
 	Quick Hashtag parser plugin for linkify
 */
-import { registerPlugin } from 'linkifyjs';
+import { registerPlugin } from '@matrix-org/linkifyjs';
 
 export const hashtag = ({ scanner, parser, utils }) => {
 	// Various tokens that may compose a hashtag

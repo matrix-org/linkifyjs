@@ -1,7 +1,7 @@
 /**
 	Convert strings of text into linkable HTML text
 */
-import { tokenize, Options } from 'linkifyjs';
+import { tokenize, Options } from '@matrix-org/linkifyjs';
 
 function escapeText(text) {
 	return text

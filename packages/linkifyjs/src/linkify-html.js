@@ -1,5 +1,5 @@
 import { tokenize } from '@nfrasser/simple-html-tokenizer';
-import * as linkify from 'linkifyjs';
+import * as linkify from '@matrix-org/linkifyjs';
 
 const { Options } = linkify;
 const LinkifyResult = 'LinkifyResult';

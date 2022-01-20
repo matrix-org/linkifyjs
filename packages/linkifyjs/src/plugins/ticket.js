@@ -1,4 +1,4 @@
-import { registerPlugin } from 'linkifyjs';
+import { registerPlugin } from '@matrix-org/linkifyjs';
 
 /**
 	Ticket number detector

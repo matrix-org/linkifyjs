@@ -1,1 +1,1 @@
-module.exports = require('linkifyjs/lib/linkify-string');
+module.exports = require('@matrix-org/linkifyjs/lib/linkify-string');

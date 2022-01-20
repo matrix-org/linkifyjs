@@ -1,7 +1,7 @@
 /**
 	Mention parser plugin for linkify
 */
-import { registerPlugin } from 'linkifyjs';
+import { registerPlugin } from '@matrix-org/linkifyjs';
 
 export const mention = ({ scanner, parser, utils }) => {
 	const { numeric, domain, HYPHEN, SLASH, UNDERSCORE, AT } = scanner.tokens;

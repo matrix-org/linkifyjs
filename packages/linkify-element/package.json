@@ -1,6 +1,6 @@
 {
-  "name": "linkify-element",
-  "version": "3.0.4",
+  "name": "@matrix-org/linkify-element",
+  "version": "4.0.0-rc.1",
   "description": "Browser DOM element interface for linkifyjs",
   "main": "index.js",
   "module": "dist/linkify-element.module.js",
