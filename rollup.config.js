@@ -13,7 +13,7 @@ export const plugins = [
 export function linkifyInterface(name, opts = {}) {
 	const iifeOpts = { name };
 	const globals = { linkifyjs: 'linkify' };
-	const external = ['linkifyjs'];
+	const external = ['@matrix-org/linkifyjs'];
 	if ('globalName' in opts) { iifeOpts.name = opts.globalName; }
 	if ('globals' in opts) { Object.assign(globals, opts.globals); }
 	if ('external' in opts) { external.push(...opts.external); }
@@ -50,7 +50,7 @@ export function linkifyClassicInterface(name, opts = {}) {
 
 	return {
 		input: `../linkifyjs/src/linkify-${name}.js`,
-		external: ['linkifyjs'], // add other dependent packages here
+		external: ['@matrix-org/linkifyjs'], // add other dependent packages here
 		output,
 		plugins
 	};
@@ -71,7 +71,7 @@ export function linkifyPlugin(name, opts = {}) {
 	}
 	return {
 		input: `../linkifyjs/src/plugins/${name}.js`,
-		external: ['linkifyjs'],
+		external: ['@matrix-org/linkifyjs'],
 		output,
 		plugins
 	};
