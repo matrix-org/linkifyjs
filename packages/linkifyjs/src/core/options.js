@@ -22,7 +22,7 @@ export const defaults = {
 };
 
 /**
- * @typedef {null | {[string]: Function}} LinkifyEventListeners
+ * @typedef {null | {[key: string]: Function}} LinkifyEventListeners
  */
 
 /**
