@@ -44,7 +44,7 @@ function tokensToNodes(tokens, opts, doc) {
 /**
  * Requires document.createElement
  * @param {HTMLElement} element
- * @param {Options} opts
+ * @param {import("@matrix-org/linkifyjs/lib/linkify").Options} opts
  * @param {Document} doc
  * @returns {HTMLElement}
  */

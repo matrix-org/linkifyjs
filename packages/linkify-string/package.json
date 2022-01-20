@@ -1,6 +1,6 @@
 {
   "name": "@matrix-org/linkify-string",
-  "version": "4.0.0-rc.4",
+  "version": "4.0.0-rc.5",
   "description": "String interface for linkifyjs",
   "main": "index.js",
   "module": "dist/linkify-string.module.js",
@@ -29,6 +29,6 @@
   },
   "homepage": "https://github.com/Hypercontext/linkifyjs#readme",
   "peerDependencies": {
-    "@matrix-org/linkifyjs": "^4.0.0-rc.4"
+    "@matrix-org/linkifyjs": "^4.0.0-rc.5"
   }
 }
