@@ -109,6 +109,11 @@ export function init() {
 	makeT(DomainDotTld, tk.HYPHEN, DomainHyphen);
 	makeMultiT(DomainDotTld, tk.domain, Domain);
 
+	// Schemes can also appear at the start of a domain name as well
+	makeT(Scheme, tk.DOT, DomainDot);
+	makeT(Scheme, tk.HYPHEN, DomainHyphen);
+	makeMultiT(Scheme, tk.domain, Domain);
+
 	// Become real URLs after `SLASH` or `COLON NUM SLASH`
 	// Here works with or without scheme:// prefix
 	makeT(DomainDotTld, tk.COLON, DomainDotTldColon);
